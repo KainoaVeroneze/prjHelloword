@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{background-color:blue;}
+main{background-color: yellow;
+width:60 ;
+margin: auto;
+display: flex;
+padding: 40px;
+color: #4400ff;
+justify-content: space-around;}
+
+
+footer{
+    background-color: green;
+}
+
+section{
+    border: 1px solid black;
+    width: 30%;
+    padding: 20px;
+}
