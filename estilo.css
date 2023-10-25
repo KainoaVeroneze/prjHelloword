@@ -1,9 +1,43 @@
 *{
     margin: 0;
     padding: 0;
+
+}
+.top-bar{
+    background-color: rgb(4, 105, 105);
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.top-bar--brand-logo {
+    width: 150px;
+    height: 150px;
+}
+.top-bar--bran{
+
+}
+.top-bar--login{
+    background-color: rgb(0, 126, 138);
+    display: flex;
+    align-items: center;
+}
+.top-bar--login-logo{
+    width: 10vh;
+    height: auto;
+}
+a{
+    color: rgb(0, 0, 0);
+}
+a:hover{
+    color: rgb(50, 20, 220);
 }
 
-header{background-color:blue;}
+a:visited{
+    color: darkcyan;
+}
+
+
+header{background-color:rgba(9, 74, 253, 0.623);}
 main{background-color: yellow;
 width:60 ;
 margin: auto;
